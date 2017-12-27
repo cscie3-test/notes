@@ -6,8 +6,10 @@ We're going to use `git` to manage our code as we develop the projects in this c
 First, some configuration would be in order.  You can look at the configuration of git by running `git config --list` at the command prompt.  Many of these configuration parameters you don't need to worry about right now, but here are a few you'll want to set up.
 
 1. Set git up with your identity. This information will be associated with code you commit to git.  
-`$ git config --global user.name "Larry Bouthillier"``
-`$ git config --global user.email lbouthillier@fas.harvard.edu`
+```bash
+$ git config --global user.name "Larry Bouthillier"
+`$ git config --global user.email lbouthillier@fas.harvard.edu
+```
 2. Make it easier to read with color output:
 `$ git config --global color.ui true`
 3. Tell git to ignore filemode changes:
@@ -308,7 +310,9 @@ var server = http.createServer(function(req, res) {
 server.listen(8080);
 console.log("Listening on http://127.0.0.1:8080/");
 ```
-Now from the command-line, we're going to run this program. Navigate to the directory where this file lives, and type `node stringserver`. Note that we don't need to use the .js filename extension here. Direct your browser to http://localhost:8080/.  Congratulations on your first Node program!   
+Now from the command-line, we're going to run this program. Navigate to the directory where this file lives, and type `node stringserver`. Note that we don't need to use the .js filename extension here. Direct your browser to http://localhost:8080/.  You'll see the value of the string being written to the `response` object.  To stop your program, press `crtl-C`.
+
+Congratulations on your first Node program!   
 
 
 
