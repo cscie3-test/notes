@@ -75,7 +75,8 @@ The "ufw" firewall is enabled. All ports except for 22, 80, and 443 are BLOCKED
 
 -------------------------------------------------------------------------------
 To delete this message of the day: rm -rf /etc/update-motd.d/99-one-click
-root@cscie31:~# ```
+root@cscie31:~#
+```
 
 Now we're logged in to our own server!  
 
